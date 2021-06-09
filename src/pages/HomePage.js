@@ -30,8 +30,10 @@ export default class HomePage extends Component {
   }
 
   handleSearch = () => {
+    const { query } = this.state;
+
     this.setState({ requesting: true }, () => {
-      buildGETAxios(`${BASE_URL}/5495-24744/json`).then((result) => {
+      buildGETAxios(`${BASE_URL}/${query}/json`).then((result) => {
         const data = _.get(result, 'data');
         if (!_.isEmpty(data)) {
           this.setState({ data, requesting: false, errorMessage: null});
