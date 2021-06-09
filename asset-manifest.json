@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/bowling/static/css/main.7f4ffdd4.chunk.css",
-    "main.js": "/bowling/static/js/main.eb9e9a2c.chunk.js",
-    "main.js.map": "/bowling/static/js/main.eb9e9a2c.chunk.js.map",
-    "runtime-main.js": "/bowling/static/js/runtime-main.6609a7ab.js",
-    "runtime-main.js.map": "/bowling/static/js/runtime-main.6609a7ab.js.map",
-    "static/js/2.84e8bd04.chunk.js": "/bowling/static/js/2.84e8bd04.chunk.js",
-    "static/js/2.84e8bd04.chunk.js.map": "/bowling/static/js/2.84e8bd04.chunk.js.map",
-    "index.html": "/bowling/index.html",
-    "static/css/main.7f4ffdd4.chunk.css.map": "/bowling/static/css/main.7f4ffdd4.chunk.css.map",
-    "static/js/2.84e8bd04.chunk.js.LICENSE.txt": "/bowling/static/js/2.84e8bd04.chunk.js.LICENSE.txt"
+    "main.css": "/bowling_ui/static/css/main.7f4ffdd4.chunk.css",
+    "main.js": "/bowling_ui/static/js/main.e806a273.chunk.js",
+    "main.js.map": "/bowling_ui/static/js/main.e806a273.chunk.js.map",
+    "runtime-main.js": "/bowling_ui/static/js/runtime-main.f264efae.js",
+    "runtime-main.js.map": "/bowling_ui/static/js/runtime-main.f264efae.js.map",
+    "static/js/2.84e8bd04.chunk.js": "/bowling_ui/static/js/2.84e8bd04.chunk.js",
+    "static/js/2.84e8bd04.chunk.js.map": "/bowling_ui/static/js/2.84e8bd04.chunk.js.map",
+    "index.html": "/bowling_ui/index.html",
+    "static/css/main.7f4ffdd4.chunk.css.map": "/bowling_ui/static/css/main.7f4ffdd4.chunk.css.map",
+    "static/js/2.84e8bd04.chunk.js.LICENSE.txt": "/bowling_ui/static/js/2.84e8bd04.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6609a7ab.js",
+    "static/js/runtime-main.f264efae.js",
     "static/js/2.84e8bd04.chunk.js",
     "static/css/main.7f4ffdd4.chunk.css",
-    "static/js/main.eb9e9a2c.chunk.js"
+    "static/js/main.e806a273.chunk.js"
   ]
 }
