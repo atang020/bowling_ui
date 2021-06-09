@@ -1,0 +1,23 @@
+.container {
+  padding: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+
+  .smallImage {
+    width: 100px;
+    height: 100px;
+  }
+
+}
+
+.largeImage {
+  max-width: 600px;
+  max-height: 600px;
+}
+
+.linkText {
+  text-decoration: none;
+  text-align: center;
+  padding: 6px;
+}

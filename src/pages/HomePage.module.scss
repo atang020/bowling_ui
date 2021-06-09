@@ -1,0 +1,64 @@
+.pageContainer {
+  padding: 12px;
+  background-image: linear-gradient(rgb(255, 200, 94), white);
+}
+
+.inputContainer {
+  width: 100%;
+  padding: 12px;
+
+  .searchInput {
+    width: 95%;
+    height: 24px;
+    margin-right: 6px;
+  }
+}
+.resultContainer {
+  height: calc(100vh - 200px);
+  border: 1px solid rgb(45, 45, 53); // 45 45 53
+  border-radius: 25px;
+}
+
+.imageContainer {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 10px;
+  overflow: scroll;
+  height: 100%;
+}
+
+.inline {
+  display: flex;
+  justify-content: center;
+
+  div {
+    margin: 6px;
+  }
+
+  label {
+    padding: 0 6px;
+  }
+}
+
+.centerText {
+  text-align: center;
+}
+
+.errorText {
+  color: red;
+  text-align: center;
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 24px;
+
+  .disabled {
+    color: gray;
+  }
+
+  .pointer {
+    cursor: pointer;
+  }
+}
