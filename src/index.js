@@ -10,7 +10,7 @@ import * as serviceWorker from './serviceWorker';
 const routing = (
   <Router>
     <div>
-      <Route exact path="/" component={HomePage} />
+      <HomePage />
     </div>
   </Router>
 )
